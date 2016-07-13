@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		959CFA5A9D51F77BEDAE928C /* Pods_baseArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8C1A305D1E02FD18DFD860 /* Pods_baseArchitecture.framework */; };
 		B8E631131D35DC32009298D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E631121D35DC32009298D5 /* main.m */; };
 		B8E631161D35DC32009298D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E631151D35DC32009298D5 /* AppDelegate.m */; };
 		B8E631191D35DC32009298D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E631181D35DC32009298D5 /* ViewController.m */; };
 		B8E6311C1D35DC32009298D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E6311A1D35DC32009298D5 /* Main.storyboard */; };
 		B8E6311E1D35DC32009298D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8E6311D1D35DC32009298D5 /* Assets.xcassets */; };
 		B8E631211D35DC32009298D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E6311F1D35DC32009298D5 /* LaunchScreen.storyboard */; };
+		B8E6312B1D35DEC2009298D5 /* UtilObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E6312A1D35DEC2009298D5 /* UtilObject.m */; };
+		B8E6312E1D35DF39009298D5 /* CacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E6312D1D35DF39009298D5 /* CacheManager.m */; };
+		B8E631321D35EBB1009298D5 /* MKAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E631311D35EBB1009298D5 /* MKAPIManager.m */; };
+		B8E631351D35EBC7009298D5 /* ServierConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E631341D35EBC7009298D5 /* ServierConfig.m */; };
+		B8E6313B1D35ECCB009298D5 /* MKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E6313A1D35ECCB009298D5 /* MKTextField.m */; };
+		B8E6314A1D35ED0D009298D5 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E6313D1D35ED0D009298D5 /* UIButton+Block.m */; };
+		B8E6314B1D35ED0D009298D5 /* UINavigationController+BATransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E6313E1D35ED0D009298D5 /* UINavigationController+BATransitions.m */; };
+		B8E6314C1D35ED0D009298D5 /* UIScreen+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E6313F1D35ED0D009298D5 /* UIScreen+Frame.m */; };
+		B8E6314D1D35ED0D009298D5 /* UIView+MKMeams.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E631411D35ED0D009298D5 /* UIView+MKMeams.m */; };
+		B8E6314E1D35ED0D009298D5 /* UIViewController+MKMeans.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E631431D35ED0D009298D5 /* UIViewController+MKMeans.m */; };
+		B8E6314F1D35ED0D009298D5 /* UIColor+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E631451D35ED0D009298D5 /* UIColor+Gradient.m */; };
+		B8E631501D35ED0D009298D5 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E631491D35ED0D009298D5 /* UIScrollView+EmptyDataSet.m */; };
+		B8E631531D35EDC0009298D5 /* NSDateFormatter+Make.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E631521D35EDC0009298D5 /* NSDateFormatter+Make.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		739EA20E4A92D3C46115B826 /* Pods-baseArchitecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baseArchitecture.release.xcconfig"; path = "Pods/Target Support Files/Pods-baseArchitecture/Pods-baseArchitecture.release.xcconfig"; sourceTree = "<group>"; };
 		B8E6310E1D35DC31009298D5 /* baseArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baseArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E631121D35DC32009298D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B8E631141D35DC32009298D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +41,34 @@
 		B8E6311D1D35DC32009298D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8E631201D35DC32009298D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8E631221D35DC32009298D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8E631291D35DEC2009298D5 /* UtilObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UtilObject.h; path = Common/UtilObject.h; sourceTree = "<group>"; };
+		B8E6312A1D35DEC2009298D5 /* UtilObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UtilObject.m; path = Common/UtilObject.m; sourceTree = "<group>"; };
+		B8E6312C1D35DF39009298D5 /* CacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CacheManager.h; path = Common/CacheManager.h; sourceTree = "<group>"; };
+		B8E6312D1D35DF39009298D5 /* CacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CacheManager.m; path = Common/CacheManager.m; sourceTree = "<group>"; };
+		B8E631301D35EBB1009298D5 /* MKAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKAPIManager.h; path = Network/MKAPIManager.h; sourceTree = "<group>"; };
+		B8E631311D35EBB1009298D5 /* MKAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MKAPIManager.m; path = Network/MKAPIManager.m; sourceTree = "<group>"; };
+		B8E631331D35EBC7009298D5 /* ServierConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServierConfig.h; path = Network/ServierConfig.h; sourceTree = "<group>"; };
+		B8E631341D35EBC7009298D5 /* ServierConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServierConfig.m; path = Network/ServierConfig.m; sourceTree = "<group>"; };
+		B8E631391D35ECCB009298D5 /* MKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKTextField.h; path = Categories/UIKit/MKTextField.h; sourceTree = "<group>"; };
+		B8E6313A1D35ECCB009298D5 /* MKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MKTextField.m; path = Categories/UIKit/MKTextField.m; sourceTree = "<group>"; };
+		B8E6313C1D35ED0D009298D5 /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+Block.h"; path = "Categories/UIKit/UIButton+Block.h"; sourceTree = "<group>"; };
+		B8E6313D1D35ED0D009298D5 /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Block.m"; path = "Categories/UIKit/UIButton+Block.m"; sourceTree = "<group>"; };
+		B8E6313E1D35ED0D009298D5 /* UINavigationController+BATransitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+BATransitions.m"; path = "Categories/UIKit/UINavigationController+BATransitions.m"; sourceTree = "<group>"; };
+		B8E6313F1D35ED0D009298D5 /* UIScreen+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+Frame.m"; path = "Categories/UIKit/UIScreen+Frame.m"; sourceTree = "<group>"; };
+		B8E631401D35ED0D009298D5 /* UIView+MKMeams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+MKMeams.h"; path = "Categories/UIKit/UIView+MKMeams.h"; sourceTree = "<group>"; };
+		B8E631411D35ED0D009298D5 /* UIView+MKMeams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+MKMeams.m"; path = "Categories/UIKit/UIView+MKMeams.m"; sourceTree = "<group>"; };
+		B8E631421D35ED0D009298D5 /* UIViewController+MKMeans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MKMeans.h"; path = "Categories/UIKit/UIViewController+MKMeans.h"; sourceTree = "<group>"; };
+		B8E631431D35ED0D009298D5 /* UIViewController+MKMeans.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MKMeans.m"; path = "Categories/UIKit/UIViewController+MKMeans.m"; sourceTree = "<group>"; };
+		B8E631441D35ED0D009298D5 /* UIColor+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Gradient.h"; path = "Categories/UIKit/UIColor+Gradient.h"; sourceTree = "<group>"; };
+		B8E631451D35ED0D009298D5 /* UIColor+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Gradient.m"; path = "Categories/UIKit/UIColor+Gradient.m"; sourceTree = "<group>"; };
+		B8E631461D35ED0D009298D5 /* UINavigationController+BATransitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+BATransitions.h"; path = "Categories/UIKit/UINavigationController+BATransitions.h"; sourceTree = "<group>"; };
+		B8E631471D35ED0D009298D5 /* UIScreen+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScreen+Frame.h"; path = "Categories/UIKit/UIScreen+Frame.h"; sourceTree = "<group>"; };
+		B8E631481D35ED0D009298D5 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+EmptyDataSet.h"; path = "Categories/UIKit/UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		B8E631491D35ED0D009298D5 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+EmptyDataSet.m"; path = "Categories/UIKit/UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		B8E631511D35EDC0009298D5 /* NSDateFormatter+Make.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+Make.h"; path = "Categories/Foundation/NSDateFormatter+Make.h"; sourceTree = "<group>"; };
+		B8E631521D35EDC0009298D5 /* NSDateFormatter+Make.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+Make.m"; path = "Categories/Foundation/NSDateFormatter+Make.m"; sourceTree = "<group>"; };
+		D23E01DB20DE8600D1ECED55 /* Pods-baseArchitecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baseArchitecture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-baseArchitecture/Pods-baseArchitecture.debug.xcconfig"; sourceTree = "<group>"; };
+		FD8C1A305D1E02FD18DFD860 /* Pods_baseArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_baseArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +76,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				959CFA5A9D51F77BEDAE928C /* Pods_baseArchitecture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B767E08F4FE8DA90853E182 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D23E01DB20DE8600D1ECED55 /* Pods-baseArchitecture.debug.xcconfig */,
+				739EA20E4A92D3C46115B826 /* Pods-baseArchitecture.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B8E631051D35DC31009298D5 = {
 			isa = PBXGroup;
 			children = (
 				B8E631101D35DC32009298D5 /* baseArchitecture */,
 				B8E6310F1D35DC31009298D5 /* Products */,
+				3B767E08F4FE8DA90853E182 /* Pods */,
+				DA00B58E9833D3A41C4CED5E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +113,9 @@
 		B8E631101D35DC32009298D5 /* baseArchitecture */ = {
 			isa = PBXGroup;
 			children = (
+				B8E631361D35EC51009298D5 /* Categories */,
+				B8E6312F1D35EB4C009298D5 /* Network */,
+				B8E631281D35DE7C009298D5 /* Common */,
 				B8E631141D35DC32009298D5 /* AppDelegate.h */,
 				B8E631151D35DC32009298D5 /* AppDelegate.m */,
 				B8E631171D35DC32009298D5 /* ViewController.h */,
@@ -79,6 +137,77 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B8E631281D35DE7C009298D5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B8E631291D35DEC2009298D5 /* UtilObject.h */,
+				B8E6312A1D35DEC2009298D5 /* UtilObject.m */,
+				B8E6312C1D35DF39009298D5 /* CacheManager.h */,
+				B8E6312D1D35DF39009298D5 /* CacheManager.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		B8E6312F1D35EB4C009298D5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B8E631301D35EBB1009298D5 /* MKAPIManager.h */,
+				B8E631311D35EBB1009298D5 /* MKAPIManager.m */,
+				B8E631331D35EBC7009298D5 /* ServierConfig.h */,
+				B8E631341D35EBC7009298D5 /* ServierConfig.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		B8E631361D35EC51009298D5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B8E631381D35EC71009298D5 /* Foundation */,
+				B8E631371D35EC63009298D5 /* UIKit */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		B8E631371D35EC63009298D5 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B8E631391D35ECCB009298D5 /* MKTextField.h */,
+				B8E6313A1D35ECCB009298D5 /* MKTextField.m */,
+				B8E6313C1D35ED0D009298D5 /* UIButton+Block.h */,
+				B8E6313D1D35ED0D009298D5 /* UIButton+Block.m */,
+				B8E631471D35ED0D009298D5 /* UIScreen+Frame.h */,
+				B8E6313F1D35ED0D009298D5 /* UIScreen+Frame.m */,
+				B8E631401D35ED0D009298D5 /* UIView+MKMeams.h */,
+				B8E631411D35ED0D009298D5 /* UIView+MKMeams.m */,
+				B8E631421D35ED0D009298D5 /* UIViewController+MKMeans.h */,
+				B8E631431D35ED0D009298D5 /* UIViewController+MKMeans.m */,
+				B8E631441D35ED0D009298D5 /* UIColor+Gradient.h */,
+				B8E631451D35ED0D009298D5 /* UIColor+Gradient.m */,
+				B8E631461D35ED0D009298D5 /* UINavigationController+BATransitions.h */,
+				B8E6313E1D35ED0D009298D5 /* UINavigationController+BATransitions.m */,
+				B8E631481D35ED0D009298D5 /* UIScrollView+EmptyDataSet.h */,
+				B8E631491D35ED0D009298D5 /* UIScrollView+EmptyDataSet.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		B8E631381D35EC71009298D5 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				B8E631511D35EDC0009298D5 /* NSDateFormatter+Make.h */,
+				B8E631521D35EDC0009298D5 /* NSDateFormatter+Make.m */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		DA00B58E9833D3A41C4CED5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD8C1A305D1E02FD18DFD860 /* Pods_baseArchitecture.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8E631251D35DC32009298D5 /* Build configuration list for PBXNativeTarget "baseArchitecture" */;
 			buildPhases = (
+				E8E42F37DD0E0AF848143C3A /* [CP] Check Pods Manifest.lock */,
 				B8E6310A1D35DC31009298D5 /* Sources */,
 				B8E6310B1D35DC31009298D5 /* Frameworks */,
 				B8E6310C1D35DC31009298D5 /* Resources */,
+				12BF2B4A7C945CE95953027E /* [CP] Embed Pods Frameworks */,
+				F4FCCEA7BCC728ADA7633EA0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,14 +276,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12BF2B4A7C945CE95953027E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-baseArchitecture/Pods-baseArchitecture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8E42F37DD0E0AF848143C3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4FCCEA7BCC728ADA7633EA0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-baseArchitecture/Pods-baseArchitecture-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B8E6310A1D35DC31009298D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8E6314C1D35ED0D009298D5 /* UIScreen+Frame.m in Sources */,
+				B8E6312B1D35DEC2009298D5 /* UtilObject.m in Sources */,
+				B8E6314B1D35ED0D009298D5 /* UINavigationController+BATransitions.m in Sources */,
+				B8E6313B1D35ECCB009298D5 /* MKTextField.m in Sources */,
+				B8E631501D35ED0D009298D5 /* UIScrollView+EmptyDataSet.m in Sources */,
+				B8E6312E1D35DF39009298D5 /* CacheManager.m in Sources */,
 				B8E631191D35DC32009298D5 /* ViewController.m in Sources */,
+				B8E6314D1D35ED0D009298D5 /* UIView+MKMeams.m in Sources */,
 				B8E631161D35DC32009298D5 /* AppDelegate.m in Sources */,
+				B8E631321D35EBB1009298D5 /* MKAPIManager.m in Sources */,
+				B8E6314A1D35ED0D009298D5 /* UIButton+Block.m in Sources */,
 				B8E631131D35DC32009298D5 /* main.m in Sources */,
+				B8E6314F1D35ED0D009298D5 /* UIColor+Gradient.m in Sources */,
+				B8E631531D35EDC0009298D5 /* NSDateFormatter+Make.m in Sources */,
+				B8E6314E1D35ED0D009298D5 /* UIViewController+MKMeans.m in Sources */,
+				B8E631351D35EBC7009298D5 /* ServierConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +454,11 @@
 		};
 		B8E631261D35DC32009298D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D23E01DB20DE8600D1ECED55 /* Pods-baseArchitecture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = baseArchitecture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ctcf.baseArchitecture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,9 +467,11 @@
 		};
 		B8E631271D35DC32009298D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 739EA20E4A92D3C46115B826 /* Pods-baseArchitecture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = baseArchitecture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ctcf.baseArchitecture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +497,7 @@
 				B8E631271D35DC32009298D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
