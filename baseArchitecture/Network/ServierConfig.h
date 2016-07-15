@@ -10,8 +10,12 @@
 
 @interface ServierConfig : NSObject
 
+
+@property (nonatomic) NSInteger  serviceIndex;
+@property (nonatomic, strong) NSDictionary *serviceDiction;
+
 + (id)shareInstance;
 
-- (NSURL *)getBasePath;
+- (NSString *)getBasePath;
 
 @end

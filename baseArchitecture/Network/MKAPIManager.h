@@ -10,8 +10,23 @@
 #import <AFNetworking/AFNetworking.h>
 #import <ReactiveCocoa/ReactiveCocoa.h>
 
+
+typedef void (^ServerReturnObject)(NSProgress *uploadProgress, NSDictionary *responseObject,NSError *error);
+
+typedef enum {
+    MKRequestTypeGet = 0,
+    MKRequestTypePost = 1,
+    MKRequestTypePostPatch
+} MKRequestType;
+
 @interface MKAPIManager : NSObject
 
 @property (nonatomic, strong)  AFHTTPSessionManager  *sessionManager;
+@property (assign, nonatomic) MKRequestType type;
+
+
++ (id)shareInstance;
+
+- (RACSignal *)startDownloadDataWithPath:(NSString *)path parameters:(NSDictionary *)parameters type:(MKRequestType)type;
 
 @end

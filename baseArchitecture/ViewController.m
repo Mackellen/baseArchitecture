@@ -7,10 +7,12 @@
 //
 
 #import "ViewController.h"
-#import  <ReactiveCocoa/ReactiveCocoa.h>
-#import  <AFNetworking/AFNetworking.h>
+#import "MKAPIManager+User.h"
+#import "ViewControllerModel.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) ViewControllerModel *viewModel;
 
 @end
 
@@ -19,6 +21,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.viewModel = [ViewControllerModel new];
+    
+    [[self.viewModel requestData] subscribeNext:^(id x) {
+        NSLog(@"result ------>%@",x);
+    } error:^(NSError *error) {
+        
+    }];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

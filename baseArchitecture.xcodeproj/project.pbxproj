@@ -27,6 +27,11 @@
 		B8E6314F1D35ED0D009298D5 /* UIColor+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E631451D35ED0D009298D5 /* UIColor+Gradient.m */; };
 		B8E631501D35ED0D009298D5 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E631491D35ED0D009298D5 /* UIScrollView+EmptyDataSet.m */; };
 		B8E631531D35EDC0009298D5 /* NSDateFormatter+Make.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E631521D35EDC0009298D5 /* NSDateFormatter+Make.m */; };
+		B8E631561D3762F2009298D5 /* MKAPIManager+User.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E631551D3762F2009298D5 /* MKAPIManager+User.m */; };
+		B8E631581D378CA1009298D5 /* ServiceAddress.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8E631571D378CA1009298D5 /* ServiceAddress.plist */; };
+		B8E631631D388441009298D5 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E6315F1D388441009298D5 /* NSDate+Utilities.m */; };
+		B8E631641D388441009298D5 /* NSDate+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E631611D388441009298D5 /* NSDate+Formatter.m */; };
+		B8E631671D38AD6C009298D5 /* ViewControllerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E631661D38AD6C009298D5 /* ViewControllerModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +72,15 @@
 		B8E631491D35ED0D009298D5 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+EmptyDataSet.m"; path = "Categories/UIKit/UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
 		B8E631511D35EDC0009298D5 /* NSDateFormatter+Make.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+Make.h"; path = "Categories/Foundation/NSDateFormatter+Make.h"; sourceTree = "<group>"; };
 		B8E631521D35EDC0009298D5 /* NSDateFormatter+Make.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+Make.m"; path = "Categories/Foundation/NSDateFormatter+Make.m"; sourceTree = "<group>"; };
+		B8E631541D3762F2009298D5 /* MKAPIManager+User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MKAPIManager+User.h"; path = "Network/MKAPIManager+User.h"; sourceTree = "<group>"; };
+		B8E631551D3762F2009298D5 /* MKAPIManager+User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MKAPIManager+User.m"; path = "Network/MKAPIManager+User.m"; sourceTree = "<group>"; };
+		B8E631571D378CA1009298D5 /* ServiceAddress.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ServiceAddress.plist; path = Network/ServiceAddress.plist; sourceTree = "<group>"; };
+		B8E6315F1D388441009298D5 /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Utilities.m"; path = "Categories/Foundation/NSDate+Utilities.m"; sourceTree = "<group>"; };
+		B8E631601D388441009298D5 /* NSDate+Formatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Formatter.h"; path = "Categories/Foundation/NSDate+Formatter.h"; sourceTree = "<group>"; };
+		B8E631611D388441009298D5 /* NSDate+Formatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Formatter.m"; path = "Categories/Foundation/NSDate+Formatter.m"; sourceTree = "<group>"; };
+		B8E631621D388441009298D5 /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Utilities.h"; path = "Categories/Foundation/NSDate+Utilities.h"; sourceTree = "<group>"; };
+		B8E631651D38AD6C009298D5 /* ViewControllerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerModel.h; sourceTree = "<group>"; };
+		B8E631661D38AD6C009298D5 /* ViewControllerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerModel.m; sourceTree = "<group>"; };
 		D23E01DB20DE8600D1ECED55 /* Pods-baseArchitecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baseArchitecture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-baseArchitecture/Pods-baseArchitecture.debug.xcconfig"; sourceTree = "<group>"; };
 		FD8C1A305D1E02FD18DFD860 /* Pods_baseArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_baseArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -120,6 +134,8 @@
 				B8E631151D35DC32009298D5 /* AppDelegate.m */,
 				B8E631171D35DC32009298D5 /* ViewController.h */,
 				B8E631181D35DC32009298D5 /* ViewController.m */,
+				B8E631651D38AD6C009298D5 /* ViewControllerModel.h */,
+				B8E631661D38AD6C009298D5 /* ViewControllerModel.m */,
 				B8E6311A1D35DC32009298D5 /* Main.storyboard */,
 				B8E6311D1D35DC32009298D5 /* Assets.xcassets */,
 				B8E6311F1D35DC32009298D5 /* LaunchScreen.storyboard */,
@@ -151,10 +167,13 @@
 		B8E6312F1D35EB4C009298D5 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				B8E631301D35EBB1009298D5 /* MKAPIManager.h */,
-				B8E631311D35EBB1009298D5 /* MKAPIManager.m */,
+				B8E631571D378CA1009298D5 /* ServiceAddress.plist */,
 				B8E631331D35EBC7009298D5 /* ServierConfig.h */,
 				B8E631341D35EBC7009298D5 /* ServierConfig.m */,
+				B8E631301D35EBB1009298D5 /* MKAPIManager.h */,
+				B8E631311D35EBB1009298D5 /* MKAPIManager.m */,
+				B8E631541D3762F2009298D5 /* MKAPIManager+User.h */,
+				B8E631551D3762F2009298D5 /* MKAPIManager+User.m */,
 			);
 			name = Network;
 			sourceTree = "<group>";
@@ -194,6 +213,10 @@
 		B8E631381D35EC71009298D5 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				B8E631621D388441009298D5 /* NSDate+Utilities.h */,
+				B8E6315F1D388441009298D5 /* NSDate+Utilities.m */,
+				B8E631601D388441009298D5 /* NSDate+Formatter.h */,
+				B8E631611D388441009298D5 /* NSDate+Formatter.m */,
 				B8E631511D35EDC0009298D5 /* NSDateFormatter+Make.h */,
 				B8E631521D35EDC0009298D5 /* NSDateFormatter+Make.m */,
 			);
@@ -269,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8E631211D35DC32009298D5 /* LaunchScreen.storyboard in Resources */,
+				B8E631581D378CA1009298D5 /* ServiceAddress.plist in Resources */,
 				B8E6311E1D35DC32009298D5 /* Assets.xcassets in Resources */,
 				B8E6311C1D35DC32009298D5 /* Main.storyboard in Resources */,
 			);
@@ -329,18 +353,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8E631641D388441009298D5 /* NSDate+Formatter.m in Sources */,
 				B8E6314C1D35ED0D009298D5 /* UIScreen+Frame.m in Sources */,
 				B8E6312B1D35DEC2009298D5 /* UtilObject.m in Sources */,
 				B8E6314B1D35ED0D009298D5 /* UINavigationController+BATransitions.m in Sources */,
+				B8E631671D38AD6C009298D5 /* ViewControllerModel.m in Sources */,
 				B8E6313B1D35ECCB009298D5 /* MKTextField.m in Sources */,
 				B8E631501D35ED0D009298D5 /* UIScrollView+EmptyDataSet.m in Sources */,
 				B8E6312E1D35DF39009298D5 /* CacheManager.m in Sources */,
 				B8E631191D35DC32009298D5 /* ViewController.m in Sources */,
 				B8E6314D1D35ED0D009298D5 /* UIView+MKMeams.m in Sources */,
 				B8E631161D35DC32009298D5 /* AppDelegate.m in Sources */,
+				B8E631561D3762F2009298D5 /* MKAPIManager+User.m in Sources */,
 				B8E631321D35EBB1009298D5 /* MKAPIManager.m in Sources */,
 				B8E6314A1D35ED0D009298D5 /* UIButton+Block.m in Sources */,
 				B8E631131D35DC32009298D5 /* main.m in Sources */,
+				B8E631631D388441009298D5 /* NSDate+Utilities.m in Sources */,
 				B8E6314F1D35ED0D009298D5 /* UIColor+Gradient.m in Sources */,
 				B8E631531D35EDC0009298D5 /* NSDateFormatter+Make.m in Sources */,
 				B8E6314E1D35ED0D009298D5 /* UIViewController+MKMeans.m in Sources */,
